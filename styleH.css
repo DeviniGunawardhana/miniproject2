@@ -1,0 +1,98 @@
+﻿body
+{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+}
+.wrapper
+{
+	background:url("Images/H.jpg");
+	background-size:cover;
+	height:100vh;
+}
+.nav-area
+{
+	background:rgba(0,0,0,0.7);
+	height:60px;
+	position:absolute;
+	width:100%;
+}
+.logo
+{
+	margin:0 50px;
+	height:60px;
+	float:left;
+	color:#fff;
+	font-size:35px;
+	text-transform:capitalize;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+.logo span
+{
+	color:#08f7c7;
+}
+.menu-area
+{
+	float:right;
+	list-style:none;
+	margin:20px;
+}
+.menu-area li
+{
+	display:inline-block;
+	margin:0 5px;
+}
+.menu-area li a
+{
+	text-decoration:none;
+	color:#fff;
+	padding:5px 10px;
+	letter-spacing:2px;
+}
+.menu-area li.active a
+{
+	color:#08f7c7;
+}
+.menu-area li a:hover
+{
+	color:#08f7c7;
+}
+.banner-text
+{
+	position:absolute;
+	top:35%;
+	text-align:center;
+	left:25%;
+}
+.banner-text h1
+{
+	color:#fff;
+	font-size:80px;
+	margin:0;
+}
+.banner-text h1 span
+{
+	color:#08f7c7;
+}
+.banner-text p
+{
+	color:#fff;
+	font-size:20px;
+	margin:0;
+	font-weight:bold;
+}
+.btn
+{
+	display:inline-block;
+	margin-top:5%;
+	background:transparent;
+	border:0;
+	font-size:20px;
+	text-transform:uppercase;
+	border:3px solid #fff;
+	padding:10px 25px;
+	color:#fff;
+	border-radius:25px;
+	cursor:pointer;
+}
